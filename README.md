@@ -1,5 +1,5 @@
 # DS5559 Exploratory Text Analytics - Romantic British Novels
-# Team
+## Team
 - Mengyao Zhang (mz6jv)
 - Runhao Zhao (rz6dg)
 
@@ -42,9 +42,11 @@ book_num | title | author | publication_year*
 
 \* *If book was published in series, use the last year.*
 
+## File Description
+The follow table shows the description for each file for this project. For the files uploaded to UVA BOX, you can find them within the [ETA_Project_British_Novels folder](https://virginia.app.box.com/folder/72268721511 "ETA_Project_British_Novels folder"). 
 
-<p align="center">
-  <img src="https://github.com/zhang90s/DS5559_Final_Project/blob/master/readme_new.PNG" width="800" height="800 title="hover text">
+<p align="left">
+  <img src="https://github.com/zhang90s/DS5559_Final_Project/blob/master/readme_new.PNG" width="750" height="800 title="hover text">
 </p>
                                                                                                                                
 
