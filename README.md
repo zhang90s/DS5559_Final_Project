@@ -1,11 +1,18 @@
 # DS5559 Exploratory Text Analytics - Romantic British Novels
+
+<p align="center">
+  <img src="https://github.com/zhang90s/DS5559_Final_Project/blob/master/book_img.jpg" width="880" title="book image">
+</p>
+
+([Image Source](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjZwY2GkYDiAhVxkuAKHYgPBPIQjRx6BAgBEAU&url=http%3A%2F%2Falena-vysotskaya.ru%2Fbooks-backgrounds%2Fimg8918996D7B&psig=AOvVaw0ipnQd9dZ9529tkfWTpJwO&ust=1556999391114791 "image source"))
+
 ## Team
 - Mengyao Zhang (mz6jv)
 - Runhao Zhao (rz6dg)
 
 ## Corpus
 
-This GitHub repo contains the code for analyzing 30 English novels with a romantic theme mainly from the 19th century. The following table shows the novels and authors for our corpus.
+This GitHub repo contains the code for analyzing 30 British novels with a romantic theme mainly from the 19th century. The following table shows the novels and authors for our corpus.
 
 book_num | title | author | publication_year*
 ---------| ------| ------- | ---------------
@@ -49,4 +56,18 @@ The follow table shows the description for each file for this project. For the f
   <img src="https://github.com/zhang90s/DS5559_Final_Project/blob/master/readme_new.PNG" width="750" height="800 title="hover text">
 </p>
                                                                                                                                
+## Flask App
+We developed a flask app showing the PCA and t-SNE plots using chapters as the documents. For both plots, author_ids were used as the label for the documents. A screenshot of the app is shown below. 
+* For the PCA plot, the user is able to enter the number of principal components and the two components to be visualized. The plot will be displayed on the Home tab. 
+* For the t-SNE plot, the plot is shown directly on the TSNE tab.
 
+<p align="center">
+  <img src="https://github.com/zhang90s/DS5559_Final_Project/blob/master/flask_screenshot.png" title="flask screenshot">
+</p>
+
+## Polo2
+We also utilized [polo2](https://github.com/ontoligent-design/polo2 "polo2 link") to explore the topic models for 9 novels (one for each author) using chapters as documents. The corpus was reduced due to constraint of computational power. Below represents a screenshot of the web app after running polo2.
+
+<p align="center">
+  <img src="https://github.com/zhang90s/DS5559_Final_Project/blob/master/polo2_screenshot.png" title="polo2 screenshot">
+</p>                                                                                                                                   
