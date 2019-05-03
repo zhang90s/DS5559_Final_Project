@@ -65,6 +65,13 @@ We developed a flask app showing the PCA and t-SNE plots using chapters as the d
   <img src="https://github.com/zhang90s/DS5559_Final_Project/blob/master/flask_screenshot.png" title="flask screenshot">
 </p>
 
+## Example PCA Plot
+The following is the PCA plot for PC0 and PC1 using 50 principal components with author_ids as the label. Interactive PCA plots for other PCs and other labels such as gender can also be found [HERE](https://plot.ly/~eddiezhaor#/ "plotly link").  
+
+<p align="center">
+  <img src="https://github.com/zhang90s/DS5559_Final_Project/blob/master/pc0-pc1-author.png" title="pca plot">
+</p>
+
 ## Polo2
 We also utilized [polo2](https://github.com/ontoligent-design/polo2 "polo2 link") to explore the topic models for 9 novels (one for each author) using chapters as documents. The corpus was reduced due to constraint of computational power. Below represents a screenshot of the web app after running polo2.
 
