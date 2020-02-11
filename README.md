@@ -62,7 +62,7 @@ We developed a flask app showing the PCA and t-SNE plots using chapters as the d
 * For the t-SNE plot, the plot is shown directly on the TSNE tab.
 
 <p align="center">
-  <img src="https://github.com/zhang90s/DS5559_Final_Project/blob/master/flask_screenshot_new.png" title="flask screenshot">
+  <img src="https://github.com/zhang90s/DS5559_Final_Project/blob/master/flask_screenshot_new.PNG" title="flask screenshot">
 </p>
 
 ## Example PCA Plot
